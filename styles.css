@@ -4,6 +4,7 @@ body {
     background-color: #fefaf7; /* Color de fondo claro */
 }
 
+/* Estilo para la colección de productos */
 .coleccion {
     background-color: #fff;
     border-radius: 10px;
@@ -46,6 +47,55 @@ body {
     background-color: #444;
 }
 
+/* Estilos para el footer */
+.footer {
+    background-color: #262626;
+    color: white; /* Color del texto en el footer */
+    padding: 2rem 0;
+}
+
+.footer .btn-primary {
+    background-color: transparent;
+    color: #f2a2a9;
+    font-weight: bold;
+    border-radius: none;
+    border-color: #f2a2a9 !important;
+}
+
+.footer .btn-primary:hover {
+    background-color: white;
+    color: #262626;
+}
+
+.footer .form-control {
+    background-color: #f2d9d0;
+    /* border: 1px solid #f2a2a9; */
+}
+
+.footer .list-group-item {
+    background-color: #262626;
+    color: white;
+    border: none;
+}
+
+.footer .list-group-item.active {
+    background-color: #262626;
+    color: white;
+    font-weight: bold;
+}
+
+.separator {
+    background-color: #ffffff;
+    height: 1px;
+    margin: 1rem 0;
+}
+
+.form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* Estilos para los productos destacados */
 .product-card {
     background-color: #fff;
     border-radius: 10px;
@@ -152,9 +202,9 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 0.9em;
-    border: none; 
+    border: none;
     cursor: pointer;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .remove-item-btn:hover {
@@ -213,3 +263,16 @@ body {
     background-color: #1976d2;
 }
 
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: #f2a2a94f;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    padding: 40px 40px;
+}
+
+.container-contacto {
+    display: flex;
+    justify-content: center;
+}
