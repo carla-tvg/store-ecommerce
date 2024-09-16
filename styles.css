@@ -14,7 +14,8 @@
 
 /*============================================ Carrusel =========================================================*/
 
-
+.contacto {background-color: #f2a2a94f; -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); border: 1.5px solid rgba(209, 213, 219, 0.3); padding: 40px 40px;}
+.container-contacto{display:flex; justify-content: center; }
 /*============================================= End- Carrusel ====================================================*/
 
 
